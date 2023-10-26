@@ -1,4 +1,4 @@
-# Prakritish Sen Eshore's Blog
+# Posts
 
 ## [ORM - SQLAlchemy](https://blog.seneshore.com/docs/Flask-SQLAlchemy.html)
 **Object-Relational Mapping (ORM)** is a powerful programming technique that bridges the gap between the 
