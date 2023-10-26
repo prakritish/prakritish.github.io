@@ -12,6 +12,6 @@ querying, data manipulation, and database schema management, making it an ideal 
 web applications that require a clean and efficient database interface while leveraging the simplicity 
 and flexibility of Flask's web development framework.
 
-My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/docs/Flask-SQLAlchemy.html).
+My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/python/orm/2023/10/26/flask-sqlalchemy.html).
 
 Date: `October 26, 2023`
