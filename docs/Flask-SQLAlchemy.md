@@ -56,8 +56,9 @@ def create_app(test_config=None):
   db.init_app(app)
   Migrate(app, db)
   # Import model classes. I have my models.py with 3 clasess in folder flaskr
-  from flaskr.models import Author, Book, Store
+  #from flaskr.models import Author, Book, Store
   with app.app_context():
+    from . import models  # Import models
     from . import routes  # Import routes
   return app
 ```
@@ -600,3 +601,7 @@ Here's a brief overview of the tasks and potential differences for MySQL and Pos
    - Storing migration scripts in version control (e.g., Git) is important for tracking database schema changes regardless of the RDBMS. The version control practices are the same for SQLite, MySQL, and PostgreSQL.
 
 In summary, the core principles and tools for managing database administrative tasks are consistent across SQLite, MySQL, and PostgreSQL, but you should be aware of the specific nuances and differences in SQL dialects, data types, and constraints for each RDBMS. When working with SQLAlchemy, the database URL and certain database-specific aspects (e.g., sequences in PostgreSQL) may need to be considered in your migrations and schema updates.
+
+# Reference
+
+The code is available at https://github.com/prakritish/prakritish.github.io/tree/master/Flask-SQLAlchemy/
