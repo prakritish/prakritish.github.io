@@ -3,16 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# <center>Prakritish Sen Eshore</center>
+**<center>Experienced Technology Leader | CI/CD Expert | Innovator | Patent Holder</center>**
+<hr /><br />
+![Prakritish Sen Eshore](/assets/profile.jpeg)
 
 
-[jekyll-organization]: https://github.com/jekyll
+Prakritish is an accomplished technology leader with a remarkable career spanning over 23 years. His journey in the tech industry has been marked by a rich tapestry of experiences, including project and people management, pioneering CI/CD practices, orchestrating complex infrastructure solutions, and providing hands-on technical leadership. 
+
+His unwavering commitment to excellence and innovation has propelled him to achieve extraordinary success, recognized through patent awards and accolades for his outstanding contributions. Prakritish is a passionate advocate for innovation and is eager to leverage his strategic vision and deep technical expertise to drive progress, inspire teams, and deliver exceptional results in the ever-evolving landscape of technology.
+
