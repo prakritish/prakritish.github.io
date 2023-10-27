@@ -5,7 +5,7 @@ date:   2023-10-19 14:10:00 +0530
 categories: devops ansible
 tags: devops ansible
 ---
-# An Ansible Refresher
+
 ## Introduction
 Introducing an Ansible Refresher, designed for those keen on revisiting their Ansible expertise. In this concise program, we'll explore Ansible to set up Nginx on a Raspberry Pi. While we won't delve into exhaustive specifics, you'll gain a practical understanding of essential Ansible concepts. Furthermore, we'll furnish you with pointers to comprehensive documentation for each topic we cover, offering you the resources for deeper exploration. Let's dive right into this Ansible Refresher.
 

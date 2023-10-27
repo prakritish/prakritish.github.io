@@ -5,10 +5,10 @@ date:   2023-10-09 14:10:00 +0530
 categories: devops cicd jenkins
 tags: devops cicd jenkins
 ---
-![Jenkins - Parallel Builds](/assets/jenkins-parallel.png)
 # Introduction
 When I initially began using Jenkins years ago, my initial perception of it was that it merely functioned as an advanced cron job runner, offering the unique selling point of centralized management and control over scheduled tasks from a central server. 😄 However, this perception was quickly dispelled as I delved deeper into Jenkins' vast array of plugins, robust community support, and continuous enhancements to its domain-specific language (DSL).
 In this article, my aim is to shine a spotlight on Jenkins' remarkable ability to execute parallel stages within a single declarative pipeline. For those who are well-acquainted with the matrix support in GitHub Actions, I will endeavor to demonstrate a comparable level of functionality by harnessing the power of Jenkins through a combination of declarative and scripted pipelines.
+![Jenkins - Parallel Builds](/assets/jenkins-parallel.png)
 
 # Use Case - I
 In this scenario, the count of parallel stages remains fixed, meaning we are aware from the outset of the exact number of parallel stages needed. For instance, our objective is to concurrently perform builds on Windows, Mac, and Linux platforms.

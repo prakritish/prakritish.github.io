@@ -5,9 +5,9 @@ date:   2023-10-05 14:10:00 +0530
 categories: devops cicd jenkins
 tags: devops cicd jenkins
 ---
-![Jenkins Shared Library](/assets/jenkins-shared-library.png)
 # Introduction
 A Jenkins Shared Library is a powerful feature that allows you to share and reuse code across multiple Jenkins pipelines or jobs. It is essentially a collection of reusable Groovy scripts and resources that can be accessed and utilized in various Jenkinsfile scripts. This feature streamlines your Jenkins automation and promotes code reusability, maintainability, and consistency across your projects.
+![Jenkins Shared Library](/assets/jenkins-shared-library.png)
 
 # Key Components
 ```
