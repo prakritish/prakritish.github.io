@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kubernetes - Cheat Sheet"
+title:  "An Ansible Refresher"
 date:   2023-10-19 14:10:00 +0530
 categories: devops ansible
 tags: devops ansible

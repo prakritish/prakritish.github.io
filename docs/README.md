@@ -15,3 +15,19 @@ and flexibility of Flask's web development framework.
 My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/docs/Flask-SQLAlchemy.html).
 
 Date: `October 26, 2023`
+
+## An Ansible Refresher
+🚀 Enhance Your Ansible Skills with My New Blog! 🚀
+
+Are you looking to boost your Ansible expertise? Our latest blog introduces an Ansible Refresher, perfect for those who want to revisit and strengthen their knowledge.
+
+🔍 In this concise program, we'll explore Ansible for setting up Nginx on a Raspberry Pi. While we won't delve into exhaustive specifics, you'll gain a practical understanding of essential Ansible concepts.
+
+💡 What's more, we provide pointers to comprehensive documentation for each topic we cover, giving you the resources for deeper exploration.
+
+Ready to level up your Ansible game? Dive into this Ansible Refresher now!
+
+Read the full blog [here](https://blog.seneshore.com/devops/ansible/2023/10/19/ansible-refresher.html)
+
+#Ansible #DevOps #Automation #LinkedInLearning"
+Dare: `October 19, 2023`
