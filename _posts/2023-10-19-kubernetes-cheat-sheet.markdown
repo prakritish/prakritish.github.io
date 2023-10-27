@@ -147,7 +147,9 @@ kubectl get pods -n <namespace>
 ```
 kubectl describe pod <pod-name>
 ```
+
 #### Creating and deleting resources
+
 * To create a resource from a YAML file, use:
 ```
 kubectl create -f <file-name>.yaml
@@ -177,7 +179,9 @@ kubectl edit <resource-type> <resource-name>
 ```
 kubectl scale <resource-type> <resource-name> --replicas=<number>
 ```
+
 #### Debugging and troubleshooting
+
 * To get the logs of a pod, use:
 ```
 kubectl logs <pod-name>
@@ -194,7 +198,9 @@ kubectl exec -it <pod-name> -c <container-name> -- <command>
 ```
 kubectl port-forward <pod-name> <local-port>:<pod-port>
 ```
+
 #### Configuring and managing contexts
+
 * To get the current context, use:
 ```
 kubectl config current-context
@@ -211,10 +217,13 @@ kubectl config use-context <context-name>
 ```
 kubectl config set-context <context-name> --cluster=<cluster-name> --user=<user-name> --namespace=<namespace>
 ```
+
 ## Helm Cheat Sheet
+
 Helm is a package manager for Kubernetes that allows you to deploy applications using charts, which are collections of YAML files that describe the resources needed by the application.
 
 ### Basic Helm Concepts
+
 **Chart:** A package of YAML files that define the application and its dependencies.
 **Repository:** A collection of charts that can be accessed by a name and a URL.
 **Release:** An instance of a chart deployed in a Kubernetes cluster.
@@ -256,6 +265,7 @@ helm dependency update <chart>
 ```
 
 #### Install and Uninstall Apps
+
 * Install a chart with the given name in the default namespace.
 ```
 helm install <name> <chart>
@@ -286,6 +296,7 @@ helm uninstall <name>
 ```
 
 #### Perform App Upgrade and Rollback
+
 * Upgrade a release to a new version of a chart.
 ```
 helm upgrade <release> <chart>
@@ -324,6 +335,7 @@ helm rollback <release> <revision> --cleanup-on-fail
 ```
 
 #### List, Add, Remove, and Update Repositories
+
 * List all the repositories added to Helm.
 ```
 helm repo list
@@ -342,6 +354,7 @@ helm repo update
 ```
 
 #### Helm Release Monitoring
+
 * List all the releases in the default namespace.
 ```
 helm list
