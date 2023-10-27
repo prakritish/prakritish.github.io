@@ -2,8 +2,8 @@
 layout: post
 title:  "Jenkins - Parallel Builds"
 date:   2023-10-09 14:10:00 +0530
-categories: devops jenkins
-tags: devops jenkins
+categories: devops cicd jenkins
+tags: devops cicd jenkins
 ---
 ![Jenkins - Parallel Builds](/assets/jenkins-parallel.png)
 # Introduction
