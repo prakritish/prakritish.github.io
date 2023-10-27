@@ -16,7 +16,7 @@ My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/docs/
 
 Date: `October 26, 2023`
 
-## An Ansible Refresher
+## [An Ansible Refresher](https://blog.seneshore.com/devops/ansible/2023/10/19/ansible-refresher.html)
 🚀 Enhance Your Ansible Skills with My New Blog! 🚀
 
 Are you looking to boost your Ansible expertise? Our latest blog introduces an Ansible Refresher, perfect for those who want to revisit and strengthen their knowledge.
@@ -30,4 +30,13 @@ Ready to level up your Ansible game? Dive into this Ansible Refresher now!
 Read the full blog [here](https://blog.seneshore.com/devops/ansible/2023/10/19/ansible-refresher.html)
 
 #Ansible #DevOps #Automation #LinkedInLearning"
-Dare: `October 19, 2023`
+
+Date: `October 19, 2023`
+
+## [Kubernetes - Cheatsheet](https://blog.seneshore.com/devops/kubernetes/2023/10/19/kubernetes-cheat-sheet.html)
+Some basic Kubernetes Concepts and summary of commonly used `kubectl` and `helm` commands.
+
+Read the full blog [here](https://blog.seneshore.com/devops/kubernetes/2023/10/19/kubernetes-cheat-sheet.html).
+
+Date: `October 19, 2023`
+
