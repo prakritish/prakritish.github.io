@@ -100,7 +100,7 @@ In the third instruction (Line 22), we also have the [notify](https://docs.ansib
 
 
 `playbooks/roles/nginx_pi4/tasks/self-signed-cert.yml`
-<script src="https://gist.github.com/prakritish/90992df3fb59181c93b8bab49b5863cc.js"></script>
+<script src="https://gist.github.com/prakritish/3975f487286b716dc2c3bd35e0a446fd.js"></script>
 In this task file, we are:
 
 - Generating Private Key - [community.crypto.openssl_privatekey](https://docs.ansible.com/ansible/latest/collections/community/crypto/openssl_privatekey_module.html)
