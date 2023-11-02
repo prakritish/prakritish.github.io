@@ -1,6 +1,6 @@
 # Posts
 
-## [Unleashing Efficiency and Power: The Magic of Git Aliases]()
+## [Unleashing Efficiency and Power: The Magic of Git Aliases](https://blog.seneshore.com/devops/git/2023/11/02/the-magic-of-git-aliases.html)
 In the fast-paced world of software development, time is precious, and productivity is paramount. Git aliases are the secret weapon that enables developers to streamline their workflows by creating custom shortcuts for common Git commands. With these aliases, you can type less, do more, and make your coding experience more efficient and enjoyable. In this article, we'll explore the incredible world of Git aliases and discover why they are the coolest tool in a developer's kit.
 
 ## [ORM - SQLAlchemy](https://blog.seneshore.com/python/orm/2023/10/26/flask-sqlalchemy.html)
