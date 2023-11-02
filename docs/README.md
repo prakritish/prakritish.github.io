@@ -1,6 +1,9 @@
 # Posts
 
-## [ORM - SQLAlchemy](https://blog.seneshore.com/docs/Flask-SQLAlchemy.html)
+## [Unleashing Efficiency and Power: The Magic of Git Aliases](https://blog.seneshore.com/devops/git/2023/11/02/the-magic-of-git-aliases.html)
+In the fast-paced world of software development, time is precious, and productivity is paramount. Git aliases are the secret weapon that enables developers to streamline their workflows by creating custom shortcuts for common Git commands. With these aliases, you can type less, do more, and make your coding experience more efficient and enjoyable. In this article, we'll explore the incredible world of Git aliases and discover why they are the coolest tool in a developer's kit.
+
+## [ORM - SQLAlchemy](https://blog.seneshore.com/python/orm/2023/10/26/flask-sqlalchemy.html)
 **Object-Relational Mapping (ORM)** is a powerful programming technique that bridges the gap between the 
 world of object-oriented programming and relational databases. It simplifies database interactions by 
 allowing developers to work with databases using Python classes and objects, rather than writing complex 
@@ -12,7 +15,7 @@ querying, data manipulation, and database schema management, making it an ideal 
 web applications that require a clean and efficient database interface while leveraging the simplicity 
 and flexibility of Flask's web development framework.
 
-My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/docs/Flask-SQLAlchemy.html).
+My post on Flask-SQLAlchemy is available [here](https://blog.seneshore.com/python/orm/2023/10/26/flask-sqlalchemy.html).
 
 Date: `October 26, 2023`
 
