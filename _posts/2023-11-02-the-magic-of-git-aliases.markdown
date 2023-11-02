@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unleashing Efficiency and Power: The Magic of Git Aliases"
-date:   2023-11-02 18:00:00 +0530
+date:   2023-11-02 17:00:00 +0530
 categories: devops git
 tags: devops git
 ---
