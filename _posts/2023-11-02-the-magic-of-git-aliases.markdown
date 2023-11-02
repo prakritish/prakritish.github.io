@@ -305,7 +305,7 @@ Here are some cool and useful Git aliases that can save you time and simplify yo
 14. **git pr**: Open the pull request page in your web browser for the current branch on platforms like GitHub or GitLab.
 
    ```bash
-   git config alias.pr "!git push origin HEAD && git web--browse 'https://github.com/your_username/your_repository/compare/main...$(git symbolic-ref --short HEAD)'"
+   git config alias.pr '!git push origin HEAD && git web--browse "https://github.com/your_username/your_repository/compare/main...$(git symbolic-ref --short HEAD)"'
    ```
 
    Usage:
