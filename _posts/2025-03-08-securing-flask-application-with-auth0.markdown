@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Securing a Flask Application with Auth0, OAuth2-Proxy, and HAProxy"
+title:  Securing a Flask Application with Auth0, OAuth2-Proxy, and HAProxy
 date:   2025-03-08 01:00:00 +0530
 categories: devops auth0 OAuth2 OAuth2-Proxy
 tags: devops auth0 OAuth2 OAuth2-Proxy
