@@ -7,14 +7,13 @@ tags: devops frigate jetson-orin-nano google-oauth oauth2-proxy haproxy tensorrt
 ---
 
 ## Introduction
+In this guide, we will deploy a production-grade, hardware-accelerated Frigate NVR 0.18 stack on the NVIDIA Jetson Orin Nano (8GB) and secure it behind Google Authentication using HAProxy and OAuth2-Proxy. We will cover sub-10ms TensorRT YOLOv7 detection, ArcFace facial recognition, Jetson hardware video decoding, and a 5-day continuous and event storage retention strategy.
 
 Building a modern, self-hosted Network Video Recorder (NVR) often forces you to make tough trade-offs. You either run an energy-hungry x86 server with a dedicated GPU pulling 150W+ 24/7, or you settle for low-power SBCs that choke when running real-time object detection across multiple high-resolution IP cameras. 
 
 The **NVIDIA Jetson Orin Nano** (8GB) completely changes this equation. Delivering up to 40 TOPS of INT8 AI compute inside a 10W–15W power envelope, it is arguably the ultimate platform for edge surveillance. When paired with **Frigate NVR 0.18.0**, you get sub-10ms TensorRT hardware-accelerated object detection, ArcFace facial recognition, and native hardware video decoding.
 
 However, running an NVR at home or in an office introduces a major security challenge: **How do you securely expose the web interface without compromising your network?** While Frigate has built-in authentication, wrapping the entire stack in **HAProxy** (for SSL/TLS termination) and **OAuth2-Proxy** (for Google Workspace / Gmail Single Sign-On) ensures zero-trust protection. No request touches the NVR backend without a verified Google identity and MFA.
-
-In this guide, I will walk you through building a production-grade, hardware-accelerated Frigate 0.18 deployment on the Jetson Orin Nano, complete with Google OAuth protection, TensorRT inference optimization, and smart storage retention.
 
 ---
 
