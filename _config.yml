@@ -21,6 +21,9 @@ github_username:  prakritish
 linkedin_username: prakritish
 google_analytics: G-7KN27TP1J4
 
+webmaster_verifications:
+  bing: "3AC68D3F3CA28254EB872C92CC96415F"
+
 # Build settings
 
 # -theme: minima
