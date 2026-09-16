@@ -176,3 +176,6 @@ backend app-backend
 
 By integrating Auth0, OAuth2-Proxy, and HAProxy, we have successfully enabled secure authentication for a Flask application. This setup ensures that only authorized users can access the application while leveraging the flexibility of OAuth2-Proxy and HAProxy. Now sit back, relax, and enjoy your well-secured app! 🔐😎
 
+> **Related Reading:** Looking for another real-world application of OAuth2-Proxy and HAProxy at the edge? Check out our guide on [Building an Edge AI NVR: Installing Frigate 0.18 on Jetson Orin Nano with Google Authentication](/devops/frigate/jetson/edge-ai/security/2026/09/16/installing-frigate-on-jetson-orin-nano-with-google-auth.html).
+
+

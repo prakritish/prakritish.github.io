@@ -2,9 +2,14 @@
 layout: post
 title:  "Building an Edge AI NVR: Installing Frigate 0.18 on Jetson Orin Nano with Google Authentication"
 date:   2026-09-16 18:30:00 +0530
+author: "Prakritish Sen Eshore"
+description: "Complete guide to deploying Frigate NVR 0.18 on NVIDIA Jetson Orin Nano with sub-10ms TensorRT YOLOv7 detection, ArcFace face recognition, and Google SSO via OAuth2-Proxy and HAProxy."
+image: /assets/images/frigate-jetson-orin-nano.jpg
 categories: devops frigate jetson edge-ai security
 tags: devops frigate jetson-orin-nano google-oauth oauth2-proxy haproxy tensorrt
 ---
+
+![Edge AI NVR Surveillance with NVIDIA Jetson Orin Nano and Google Authentication](/assets/images/frigate-jetson-orin-nano.jpg)
 
 ## Introduction
 In this guide, we will deploy a production-grade, hardware-accelerated Frigate NVR 0.18 stack on the NVIDIA Jetson Orin Nano (8GB) and secure it behind Google Authentication using HAProxy and OAuth2-Proxy. We will cover sub-10ms TensorRT YOLOv7 detection, ArcFace facial recognition, Jetson hardware video decoding, and a 5-day continuous and event storage retention strategy.
@@ -142,6 +147,8 @@ skip_provider_button = true
 - `cookie_secure = true`: Enforces the transmission of session cookies strictly over HTTPS.
 - `skip_provider_button = true`: Skips the intermediate "Sign in with Google" landing page and takes the user directly to the Google login screen.
 - `upstreams = ["http://frigate:5000"]`: Once authenticated, traffic flows directly to the internal Frigate container port.
+
+> **Note:** If your organization uses Auth0 instead of Google for identity management, see my earlier guide on [Securing a Flask Application with Auth0, OAuth2-Proxy, and HAProxy](/devops/auth0/oauth2/oauth2-proxy/2025/03/08/securing-flask-application-with-auth0.html) for the equivalent OIDC setup.
 
 ---
 
